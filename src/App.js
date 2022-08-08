@@ -15,7 +15,7 @@ function App() {
 
 
   const allowedFiles = ['application/pdf'];
-  const handleFile = (e) =>{
+  const handleFile = (e)  =>{
     let selectedFile = e.target.files[0];
     if(selectedFile){
       if(selectedFile&&allowedFiles.includes(selectedFile.type)){
